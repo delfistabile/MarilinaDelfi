@@ -1,0 +1,70 @@
+
+@import "variables.scss";
+
+header{
+
+
+    h1{
+        color: $colorUno;
+        font-family: 'New Rocker', cursive;
+        font-size: 10vw;
+        text-align: center;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:initial;
+    
+    }
+    @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+
+     nav{
+         li{
+            list-style: none;
+            margin: 10px;
+            font-family: 'Montserrat', sans-serif; 
+
+            a{
+                text-decoration: none;
+                color:#ffd23fff;
+            
+            }
+         }
+     }
+
+}
+
+main{
+    color: $colorDos;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    margin: 2vw;
+
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        color: $colorSecundario;
+        margin: 2vw;
+        text-decoration:underline; 
+    }
+}
+
+
+.encabezado{
+    background-color: #e87461ff;
+    border: 2px solid #843b62(97, 19, 170);
+}
+
+.pie{
+    @extend .encabezado;
+    text-align: right;
+    color: #843b62;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1vw;
+}
+
+
