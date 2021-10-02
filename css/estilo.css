@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 h1{
     color: #9a348eff;
     font-family: 'New Rocker', cursive;
@@ -11,6 +12,10 @@ h1{
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count:initial;
+
+}
+.titulo{
+    font-size: 10vw;
 
 }
 /*Animacion titulo principal*/
@@ -37,7 +42,12 @@ h2{
     margin: 2vw;
     text-decoration:underline; 
 }
+.nav{
+    
+    color:#ffd23fff;
+  
 
+}
 nav li{
 
 list-style: none;
@@ -51,8 +61,12 @@ a{
     color:#ffd23fff;
 
 }
+body{background-repeat: no-repeat;
+    background-color:#9c4172;
+   
 
-body{
+}
+.estiloBody{
 
     background-repeat: no-repeat;
     background-color:#9c4172;
@@ -165,7 +179,49 @@ video{
 }
 
 /*media queries*/
+/*
+@media only screen and (max-widht:768px){
+.galeriaGrilla{
+    
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows:   700px 700px 700px;
+    grid-template-areas: "img"
+                        "shows" 
+                        "videoc";
 
+
+}
+
+#imagenes {
+    grid-area: img;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+#showsvivo{
+ 
+    grid-area:shows;
+    
+}
+#videoclips{
+    
+    grid-area: videoc;
+   
+}
+
+@media screen and (min-widht:768px){
+
+}
+
+@media screen and (min-widht:992px) {
+    
+}
+@media screen and (min-widht:1200px){
+
+}
 
 
 
