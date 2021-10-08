@@ -212,7 +212,7 @@ body{background-repeat: no-repeat;
 
 }
 .main{
-    grid-area: main
+    grid-area: main;
 }
 .footer{
     grid-area: footer;
