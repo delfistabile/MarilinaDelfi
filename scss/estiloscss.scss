@@ -9,7 +9,7 @@
 /*---BODY---*/
 body{
     background-repeat: no-repeat;
-     background-color:#9c4172;
+     background-color: $colorUno;
      
     
 }
@@ -17,7 +17,7 @@ body{
 .estiloBody{
 
     background-repeat: no-repeat;
-    background-color:#9c4172;
+    background-color:$colorUno;
    
 }
 /*GRID DE LAYOUT GENERAL*/
@@ -40,6 +40,9 @@ body{
 .footer{
     grid-area: footer;
 }
+
+
+
 /*---HEADER---*/
 header{
 
@@ -72,7 +75,7 @@ header{
 
             a{
                 text-decoration: none;
-                color:#ffd23fff;
+                color:$colorTres;
             
             }
          }
@@ -93,7 +96,7 @@ header{
 .estiloBody{
 
     background-repeat: no-repeat;
-    background-color:#9c4172;
+    background-color:$colorUno;
    
 }
 /*FLEXBOX MENU */
@@ -104,6 +107,10 @@ header{
     display: flex;
     justify-content: space-around;
 }
+
+
+
+
 
 /*---MAIN---*/
 main{
@@ -214,6 +221,11 @@ main{
 }
 
 
+
+
+
+
+
 /*---FOOTER---*/
 footer{
     p{
@@ -226,14 +238,14 @@ footer{
 }
 
 .encabezado{
-    background-color: #e87461ff;
-    border: 2px solid #843b62(97, 19, 170);
+    background-color: $colorCuatro;
+    border: 2px solid $colorUno;
 }
 
 .pie{
     @extend .encabezado;
     text-align: right;
-    color: #843b62;
+    color: $colorUno;
     font-family: 'Montserrat', sans-serif;
     padding: 1vw;
    

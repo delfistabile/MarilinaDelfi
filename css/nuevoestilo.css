@@ -5,11 +5,11 @@
 /*---BODY---*/
 body {
   background-repeat: no-repeat;
-  background-color: #9c4172; }
+  background-color: #9a348eff; }
 
 .estiloBody {
   background-repeat: no-repeat;
-  background-color: #9c4172; }
+  background-color: #9a348eff; }
 
 /*GRID DE LAYOUT GENERAL*/
 .layoutGeneral {
@@ -63,7 +63,7 @@ header a {
 
 .estiloBody {
   background-repeat: no-repeat;
-  background-color: #9c4172; }
+  background-color: #9a348eff; }
 
 /*FLEXBOX MENU */
 .navegacionMenu {
@@ -168,11 +168,11 @@ footer p a {
 
 .encabezado, .pie {
   background-color: #e87461ff;
-  border: 2px solid #843b62 97, 19, 170; }
+  border: 2px solid #9a348eff; }
 
 .pie {
   text-align: right;
-  color: #843b62;
+  color: #9a348eff;
   font-family: 'Montserrat', sans-serif;
   padding: 1vw; }
 
