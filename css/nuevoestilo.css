@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0; }
 
+/*---BODY---*/
 body {
   background-repeat: no-repeat;
   background-color: #9c4172; }
@@ -26,6 +27,7 @@ body {
 .footer {
   grid-area: footer; }
 
+/*---HEADER---*/
 header h1 {
   color: #9a348eff;
   font-family: 'New Rocker', cursive;
@@ -33,7 +35,8 @@ header h1 {
   text-align: center;
   animation-duration: 2s;
   animation-name: aparecer;
-  animation-iteration-count: initial; }
+  animation-iteration-count: initial;
+  text-decoration: none; }
 
 @keyframes aparecer {
   0% {
@@ -49,11 +52,18 @@ header nav li {
     text-decoration: none;
     color: #ffd23fff; }
 
+header a {
+  text-decoration: none; }
+
 .titulo {
   font-size: 10vw; }
 
 .nav {
   color: #ffd23fff; }
+
+.estiloBody {
+  background-repeat: no-repeat;
+  background-color: #9c4172; }
 
 /*FLEXBOX MENU */
 .navegacionMenu {
@@ -63,6 +73,7 @@ header nav li {
   display: flex;
   justify-content: space-around; }
 
+/*---MAIN---*/
 main {
   color: #7fd1b9ff;
   font-family: 'Montserrat', sans-serif;
@@ -150,6 +161,7 @@ main {
   margin: 10px;
   padding: 10px; }
 
+/*---FOOTER---*/
 footer p a {
   text-decoration: none;
   color: #ffd23fff; }
