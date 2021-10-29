@@ -160,10 +160,11 @@ main{
 
 .galeriaImg{
     height: auto;
-    max-height: 350px;
+    max-height: 500px;
     width: auto;
-    max-width: 300px;
+    max-width: 450px;
     margin: 2px;
+   
 }
 #imagenes {
     grid-area: img;
@@ -197,6 +198,11 @@ main{
     grid-area: img4;
 }
 
+.fotos{
+    display:flex;
+    justify-content: center;
+}
+
 /*GRILLA ALBUMES*/
 .playlist{
 
@@ -207,31 +213,6 @@ main{
 
 
 
-/*
-.playlist{
-    
-    display:grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows:  auto;
-    grid-template-areas: "alb1 alb2 alb3";
-   
-    margin: 2vw;
-
-}
-#alb1{
-    grid-area: alb1;
-    align-self: center;
-}
-#alb2{
-    grid-area: alb2;
-    align-self: center;
-}
-#alb3{
-    grid-area: alb3;
-    display: flex;
-    align-content: center;
-}
-*/
 .premios{
     display: flex;
     justify-content: space-around;
@@ -291,6 +272,15 @@ footer{
     font-family: 'Montserrat', sans-serif;
     padding: 1vw;
    
+}
+
+.final{
+display: flex;
+justify-content: space-between;
+
+}
+.ultimo{
+    text-align: left;
 }
 
 
