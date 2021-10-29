@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,25 +11,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=New+Rocker&display=swap" rel="stylesheet">
 
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
  
-    <title>Albumes Marilina</title>
+    <title>Álbumes Marilina</title>
 </head>
-<body>
+<body class="estiloBody">
     <div class="layoutGeneral">
         <header class="encabezado">
             <div class="header">
                 <a href="../index.html"><h1>Marilina Bertoldi</h1></a>
-                <nav>
-                    <ul class="navegacionMenu">
-                        <li><a href="../index.html">INICIO</a></li>
-                        <li><a href="acercade.html">ACERCA DE</a></li>
-                        <li><a href="albumes.html">ALBUMES</a></li>
-                        <li><a href="galeria.html">GALERÍA MULTIMEDIA</a></li>
-                        <li><a href="contacto.html">CONTACTO</a></li>
-                    </ul>
-                    
+
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class=" container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navegacionMenu navbar-nav me-auto mb-2 mb-lg-0" >
+                            <li><a href="../index.html">INICIO</a></li>
+                            <li><a href="acercade.html">ACERCA DE</a></li>
+                            <li><a href="albumes.html">ALBUMES</a></li>
+                            <li><a href="galeria.html">GALERÍA MULTIMEDIA</a></li>
+                            <li><a href="contacto.html">CONTACTO</a></li>
+                        </ul>
+                    </div>
+                    </div>
                 </nav>
+               
+               
+               
 
             </div>
         
@@ -40,15 +52,66 @@
     
         <main>
             <div class="main">
+                <h2>Discografía</h2>
                 <section class="playlist" >
-                    <iframe id="alb1" class="animate__animated animate__rollIn"src="https://open.spotify.com/embed/album/3QgG3SuMTWMIsxwzdu7vN3" width="220" height="500" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            
-                    <iframe id="alb2" class="animate__animated animate__rollIn"src="https://open.spotify.com/embed/album/0chduE6pCglPaH32gP0ctx" width="220" height="500" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            
-                    <iframe id="alb3" class="animate__animated animate__rollIn"src="https://open.spotify.com/embed/album/27PfLPIMCol9L6o8ZaXoF2" width="220" height="500" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            
-                    </section>
                     
+                    <iframe id="alb1" class="animate__animated animate__rollIn"src="https://open.spotify.com/embed/album/3QgG3SuMTWMIsxwzdu7vN3" width="250" height="500" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            
+                    <iframe id="alb2" class="animate__animated animate__rollIn"src="https://open.spotify.com/embed/album/0chduE6pCglPaH32gP0ctx" width="250" height="500" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            
+                    <iframe id="alb3" class="animate__animated animate__rollIn"src="https://open.spotify.com/embed/album/27PfLPIMCol9L6o8ZaXoF2" width="250" height="500" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            
+                </section>
+                <div>
+                    <h2>Premios Ganados</h2>
+                    <div class="premios">
+                        
+                        <div class="card bg-black" style="width: 18rem;">
+                            <img src="../css/imagenes/Cpremio2017.jpg" class="card-img-top" alt="Marilina con el premio Gardel 2017 en mano">
+                            <div class="card-body">
+                            <h4 class="card-title">Premios Gardel 2017</h4>
+                            <p class="card-text">Fue la ganadora de la categoría "Mejor Álbum de Artista Femenina de Rock" con su primer album solista "Sexo con Modelos".</p>
+                            
+                            </div>
+                        </div>
+                        <div class="card bg-black" style="width: 18rem;">
+                            <img src="../css/imagenes/Cpremio2019.jpg" class="card-img-top" alt="Marilina con el premio Gardel 2019 en mano">
+                            <div class="card-body">
+                            <h4 class="card-title">Premios Gardel 2019</h4>
+                            <p class="card-text">Fue la ganadora de la categoria "Álbum del año" a este premio con su último álbum como solista "Prender un fuego".</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Nominaciones</h2>
+                    <div class="premios">
+                        
+
+                        <div class="card bg-black" style="width: 18rem;">
+                            
+                            <div class="card-body">
+                            <h5 class="card-title">Grammy Latino 2016</h5>
+                            <p class="card-text">Fue nominada como "Mejor Álbum de Rock" con su primer album como solista "Sexo con Modelos".</p>
+                            
+                            </div>
+                        </div>
+
+                        <div class="card bg-black" style="width: 18rem;">
+                            
+                            <div class="card-body">
+                            <h5 class="card-title">Grammy Latino 2019</h5>
+                            <p class="card-text">Fue nominada como "Mejor Álbum de Música alternativa" con su ultimo álbum solista "Prender un fuego".</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+                
+
+
+
 
             </div>
             
@@ -71,6 +134,7 @@
 
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     
 </body>
 </html>

@@ -1,3 +1,81 @@
+/*
+#eeb519
+#eb7222
+      {
+        "name": "New Swatch",
+        $color: #650043;
+      },
+      {
+        "name": "New Swatch",
+        $color: #00685F
+      },
+      {
+        "name": "New Swatch",
+        "color": "E6DA38"
+      },
+      {
+        "name": "New Swatch",
+        "color": "770098"
+      },
+      {
+        "name": "New Swatch",
+        $color: #00384A
+
+        {
+            {
+                "name": "New Swatch",
+                "color": "650043"
+              },
+              {
+                "name": "New Swatch",
+                "color": "00685F"
+              },
+              {
+                "name": "New Swatch",
+                "color": "E6DA38"
+              },
+              {
+                "name": "New Swatch",
+                "color": "770098"
+              },
+              {
+                "name": "New Swatch",
+                $color: #00384A"
+                "paletteName": "New Palette",
+                "swatches": [
+                  {
+                    "name": "New Swatch",
+                    "color": "490042"
+                  },
+                  {
+                    "name": "New Swatch",
+                    "color": "002630"
+                  },
+                  {
+                    "name": "New Swatch",
+                    "color": "1C5B76"
+                  },
+                  {
+                    "name": "New Swatch",
+                    $color: #DD9900"
+                  },
+                  {
+                    "name": "New Swatch",
+                    $color: #EA0070
+                    rgb(245, 147, 221)
+
+
+
+
+
+
+
+$colorUno:#9a348eff;
+$colorDos:#7fd1b9ff;
+$colorSecundario:rgb(245, 147, 221);
+$colorTres:#ffd23fff;
+$colorCuatro: #e87461ff;
+*/
 * {
   margin: 0;
   padding: 0; }
@@ -5,11 +83,11 @@
 /*---BODY---*/
 body {
   background-repeat: no-repeat;
-  background-color: #9a348eff; }
+  background-color: #53013f; }
 
 .estiloBody {
   background-repeat: no-repeat;
-  background-color: #9a348eff; }
+  background-color: #53013f; }
 
 /*GRID DE LAYOUT GENERAL*/
 .layoutGeneral {
@@ -29,7 +107,7 @@ body {
 
 /*---HEADER---*/
 header h1 {
-  color: #9a348eff;
+  color: #53013f;
   font-family: 'New Rocker', cursive;
   font-size: 10vw;
   text-align: center;
@@ -50,7 +128,7 @@ header nav li {
   font-family: 'Montserrat', sans-serif; }
   header nav li a {
     text-decoration: none;
-    color: #ffd23fff; }
+    color: #028585; }
 
 header a {
   text-decoration: none; }
@@ -58,15 +136,14 @@ header a {
 .titulo {
   font-size: 10vw; }
 
-.nav {
-  color: #ffd23fff; }
-
 .estiloBody {
   background-repeat: no-repeat;
-  background-color: #9a348eff; }
+  background-color: #53013f; }
 
 /*FLEXBOX MENU */
 .navegacionMenu {
+  width: 100%;
+  background-color: #eb7222;
   text-align: center;
   font-weight: bold;
   font-size: 2vw;
@@ -75,15 +152,16 @@ header a {
 
 /*---MAIN---*/
 main {
-  color: #7fd1b9ff;
+  color: #5ff1e5;
   font-family: 'Montserrat', sans-serif;
   line-height: 20px;
   margin: 2vw; }
   main h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #f593dd;
+    color: #f59393;
     margin: 2vw;
-    text-decoration: underline; }
+    text-decoration: underline;
+    text-align: center; }
 
 /*GRILLAS, ANIMACION Y FLEX EN GALERIA MULTIMEDIA*/
 /*grilla galeria completa*/
@@ -125,7 +203,9 @@ main {
   display: grid;
   grid-template-columns: 48% 48%;
   grid-template-rows: 300px 300px;
-  grid-template-areas: "img1 img2" "img3 img4"; }
+  grid-template-areas: "img1 img2" "img3 img4";
+  row-gap: 20px;
+  align-items: center; }
 
 .img1 {
   grid-area: img1; }
@@ -141,38 +221,66 @@ main {
 
 /*GRILLA ALBUMES*/
 .playlist {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  grid-template-areas: "alb1 alb2 alb3";
-  margin: 2vw; }
+  display: flex;
+  justify-content: space-around; }
 
-#alb1 {
-  grid-area: alb1; }
+/*
+.playlist{
+    
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  auto;
+    grid-template-areas: "alb1 alb2 alb3";
+   
+    margin: 2vw;
 
-#alb2 {
-  grid-area: alb2; }
-
-#alb3 {
-  grid-area: alb3; }
+}
+#alb1{
+    grid-area: alb1;
+    align-self: center;
+}
+#alb2{
+    grid-area: alb2;
+    align-self: center;
+}
+#alb3{
+    grid-area: alb3;
+    display: flex;
+    align-content: center;
+}
+*/
+.premios {
+  display: flex;
+  justify-content: space-around; }
 
 /*formulario*/
 .formu {
   margin: 10px;
   padding: 10px; }
 
+.contactoflex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.imgcont {
+  height: auto;
+  max-height: 500px;
+  width: auto;
+  max-width: 400px; }
+
 /*---FOOTER---*/
 footer p a {
   text-decoration: none;
-  color: #ffd23fff; }
+  color: #028585; }
 
 .encabezado, .pie {
-  background-color: #e87461ff;
-  border: 2px solid #9a348eff; }
+  background-color: #eb7222;
+  border: 2px solid #53013f; }
 
 .pie {
   text-align: right;
-  color: #9a348eff;
+  color: #53013f;
   font-family: 'Montserrat', sans-serif;
   padding: 1vw; }
 
@@ -212,7 +320,8 @@ footer p a {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
-    grid-template-areas: "alb1" "alb2" "alb3"; }
+    grid-template-areas: "alb1" "alb2" "alb3";
+    row-gap: 20px; }
   #alb1 {
     grid-area: alb1; }
   #alb2 {
